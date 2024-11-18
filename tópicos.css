@@ -1,0 +1,21 @@
+.tópicos{
+    background-color: rgb(205, 205, 245);
+    text-align: center;
+}
+.tópicos-titulo{
+    color: white;
+}
+.tópicos-lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tópicos-item{
+    margin: 2em  0.5em;
+}
+.tópicos-link{
+    color: rgb(241, 233, 233);
+    padding: 1em;
+    background-color: rgb(133, 57, 177);
+
+}

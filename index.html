@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escporte Clube</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="styles.css">
+   
+
+</head>
+<body>
+  <header class="cabeçalho">
+    <div class=caixa>
+        <input type="checkbox" id="menu" class="caixa-botao">
+        <label for="menu">
+    <span class="cabeçalho-menu-amburguer caixa-imagem"></span></label>
+    <ul class="lista-menu">
+        <li class="lista-menu-titulo"> Cardápio de bebidas</li>
+        <li class="lista-menu-itens"><a href="#" class="lista-menu-link">Vinho</a>
+        </li>
+        <li class="lista-menu-itens"><a href="#" class="lista-menu-link">Caipirinha</a>
+        </li>
+        <li class="lista-menu-itens"><a href="#" class="lista-menu-link">Cerveja</a>
+        </li>
+        <li class="lista-menu-itens"><a href="#" class="lista-menu-link">Refrigerantes</a>
+        </li>
+    </ul>
+    <a href="#"><img class=caixa-imagem src="carrinho de compras.svg" alt="carrinho de compras"></a></div>
+   
+    <div class=caixa><a href="#"><li class="cadastro">CADASTRO</li></a><a href="#"><img  class=caixa-imagem src="home.svg" alt="home"></a>
+    <a href="#" ><img  class=caixa-imagem src="meus favoritos.svg" alt="meus favoritos"></a></div>
+</header>
+<section class="banner">
+    <h2 class="banner-titulo"> Você Já sabe por onde começar?</h2>
+    <p class="banner-texto"> Escolha sua bebida favorita</p>
+    <input type="search" class="banner-pesquisa" 
+   placeholder="Qual será sua bebida escolhida?">
+</section>
+<section class="carrossel">
+    <h2 class="carrossel-titulo"> conheça nossas diversas bebidas</h2>
+    <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+      <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="CAIPIRINHADELIMÃO.jpg" alt="CAIPIRINHA DE LIMAO"></div>
+      <div class="swiper-slide"><img src="cervejaartesanal_.jpg" alt="CERVEJA"></div>
+      <div class="swiper-slide"><img src="VINHO.webp" alt="VINHO"></div>
+      <div class="swiper-slide"><img src="latas_de_refrigerantes.jpg" alt="latas_de_refrigerantes"></div>
+      <div class="swiper-slide"><img src="O-Que-e-agua-Mineral.webp" alt="ÁGUA"></div>
+      <div class="swiper-slide"><img src="RTEmagicC_Batida_Fruta_Carnaval.jpg.jpg" alt="BATIDINHA"></div>
+    </div>
+   
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    <div class="card">
+                <!-- 1º linha -->
+      <div class="card-descrição">
+        <!-- 1º coluna -->
+        <div class="descrição">
+          <h3 class="decrição-titulo"> SAIBA MAIS SOBRE NOSSO CARDÁPIO,
+             AQUI O SABOR É GARANTIDO PARA VOCÊ, SUA FAMÍLIA E SEUS AMIGOS.</h3>
+
+             <h2 Class="descrição-piscina"> ALCÓOLICAS E MUITO MAIS. </h2>
+
+             <p class="descriçã-texto">FIQUE POR DENTRO DAS NOVIDADES E PROMOÇÕES. </p> </div>
+             <!-- 2º coluna -->
+              <img src="bebidas-alcoolicas-mais-famosas.webp" class="descrição-imagem">
+      </div>
+      <!-- 2º linha -->
+       <div class="card-botões">
+         <!-- 1º coluna -->
+        <ul class="botões">
+          <li class="botões-item"><img src="meus favoritos.svg" alt="favoritar piscina"></li>
+          <li class="botões-item"><img src="carrinho de compras.svg" alt="adicionar no carrinho"></li>
+        </ul>
+        <!-- 2º coluna -->
+         <a href="#" class="botões-ancora">CONHEÇA NOSSOS PLANOS</a>
+       </div>
+    </div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+</section>
+<section class="tópicos">
+  <h2 class= "tópicos-titulo"> TÓPICOS VIZITADOS RECENTEMENTE</h2>
+  <ul class="tópicos-lista">
+<li class="tópicos-item"> <a href="#" class="tópicos-link">COCA-COLA</a></li>
+<li class="tópicos-item"> <a href="#" class="tópicos-link">VINHO SECO</a></li>
+<li class="tópicos-item"> <a href="#" class="tópicos-link">CAIPIRINHA DE MORANGO</a></li>
+<li class="tópicos-item"> <a href="#" class="tópicos-link">HEINKEIN</a></li>
+<li class="tópicos-item"> <a href="#" class="tópicos-link">BAHRMA</a></li>
+<li class="tópicos-item"> <a href="#" class="tópicos-link">GUARANA ANTÁRTICA</a></li>
+<li class="tópicos-item"> <a href="#" class="tópicos-link">CAIPIRINHA DE LIMÃO</a></li>
+
+  </ul>
+
+</section>
+<section class="contato">
+<h2 class="contato-titulo">Fique por dentro das novidades</h2>
+<p class="contato-texto">atualizações, promoções e outros</p>
+<input type="email" placeholder="Cadastre seu e-mail" class="contato-email">
+</section>
+<hr />
+
+<footer class="rodapé"><a href="https://wa.me/qr/ML5S65MCJPAGJ1"><h2 class="rodapé-titulo">WHATSAPP</h2></a></footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script> const swiper = new Swiper('.swiper', {
+    spaceBetween: 10, slidesPerView: 3,
+    pagination: { el: '.swiper-pagination',
+        type: 'bullets',},
+    });</script>
+</body>
+</html>

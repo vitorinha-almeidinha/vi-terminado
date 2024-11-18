@@ -1,0 +1,27 @@
+.contato{
+    background-color: white;
+    padding: 1em ;
+}
+.contato-titulo,
+.contato-texto{
+background-color: rgb(213, 166, 252);}
+.contato-titulo{
+    font-size: 18px;
+    font-weight: 500;
+}
+.contato-texto{
+    font-weight: 300;
+    margin: 1em 0;
+}
+.contato-email{
+    padding: 1em;
+    border: 1px solid rgb(210, 148, 238);
+    border-radius: 24px;
+    width: 90%;
+    color: rgb(188, 145, 243);
+}
+.contato-email::placeholder{
+    color: rgb(212, 146, 243);
+    background: url("email.svg") no-repeat;
+    padding-left: 2em;
+}
